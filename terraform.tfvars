@@ -1,7 +1,7 @@
-cf_org     = "client-src-ampm"
-cf_space   = "dev-infra"
-cf_domain  = "cloud.pcftest.com"
-cf_api_url = "https://api.cloud.pcftest.com"
-cf_user = "mramareddy"
-cf_password = "Minty@2021"
+cf_org     = ${{secrets.cf_org}}
+cf_space   = ${{secrets.cf_space}}
+cf_domain  = ${{secrets.cf_domain}}
+cf_api_url = ${{secrets.cf_api_url}}
+cf_user = ${{secrets.cf_user}}
+cf_password = ${{secrets.cf_password}}
 
