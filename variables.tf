@@ -46,6 +46,6 @@ variable "enable_kibana" {
 
 variable "kibana_image" {
   description = "Image to use for Grafana"
-  default     = "docker.elastic.co/kibana/kibana:7.7.1"
+  default     = "docker.elastic.co/kibana/kibana:7.10.2"
   type        = string
 }
